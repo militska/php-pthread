@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  php-zts:
+    build:
+      context: docker/php-zts
+    volumes:
+      - .:/var/www
